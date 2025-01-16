@@ -7,6 +7,7 @@ namespace _03.Articles2
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
             List<Article> articleList = new List<Article>();
             for (int i = 0; i < n; i++)
             {
