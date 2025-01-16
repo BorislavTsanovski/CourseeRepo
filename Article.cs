@@ -41,6 +41,8 @@ namespace _03.Articles2
             {
                 Console.WriteLine($"{Title} - {Content}: {Author}");
             }
+
+            public void Empty() {}
         }
     }
 }
